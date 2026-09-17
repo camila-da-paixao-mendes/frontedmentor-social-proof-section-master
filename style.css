@@ -34,15 +34,124 @@ body {
 
 main {
   margin: 50px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 100px;
 }
 
 .first-section {
-    display: flex;
-},
+  display: grid;
+  grid-template-columns: 0.66fr 1fr;
+  gap: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.first-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-div p {
+  color: var(--dark-grey);
+  line-height: 20px;
+  font-weight: 500;
+  width: 80%;
+}
+
+
+h1 {
+  color: var(--primary-purple);
+  font-weight: 700;
+  font-size: 52px;  
+}
 
 .ratings {
   display: flex;
   flex-direction: column;
+  gap: 16px;
+
+  
+}
+
+.rating {
+  background-color: var(--light-grey);
+  padding: 16px;
+  width: 70%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: var(--primary-purple);
+  font-weight: 700;
+}
+
+.rating-1 {
+    margin-left: 0;
+}
+
+.rating-2 {
+    margin-left: 40px;
+}
+
+.rating-3 {
+    margin-left: 80px;
+}
+
+.rating span {
+  white-space: nowrap;
+}
+
+.stars {
+  color: rgb(236, 202, 13);
+}
+
+.second-section {
+  display: flex;
+  gap: 100px;
+}
+
+.review {
+  background-color: var(--primary-purple);
+  color: var(--light-grey);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+.user-information {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 15px;
+  
+}
+
+.user-information h2 {
+  font-weight: 500;
+}
+
+.user-information span {
+  color: var(--secundary-pink);
+}
+
+.review-1 {
+    margin-top: 0;
+}
+
+.review-2 {
+    margin-top: 20px;
+}
+
+.review-3 {
+    margin-top: 40px;
 }
